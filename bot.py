@@ -2,7 +2,6 @@ import discord
 from discord.ext import commands
 from config import token  # Botun tokenini config dosyasından içe aktarma
 
-# 
 intents = discord.Intents.default()
 intents.members = True  # Botun kullanıcılarla çalışmasına ve onları banlamasına izin verir
 intents.message_content = True
